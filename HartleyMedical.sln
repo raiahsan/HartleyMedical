@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HartleyMedical.Database", "HartleyMedical.Database\HartleyMedical.Database.sqlproj", "{0724735E-DA49-4543-A04D-8FA10F8B250F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HartleyMedical.Infrastructure", "HartleyMedical.Infrastructure\HartleyMedical.Infrastructure.csproj", "{CB6CBA54-B695-4159-B8AA-49476A98BAAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HartleyMedical.Domain", "HartleyMedical.Domain\HartleyMedical.Domain.csproj", "{CE54D5A9-2E26-4CD5-980A-900F179C8730}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HartleyMedical.WebAPI", "HartleyMedical.WebAPI\HartleyMedical.WebAPI.csproj", "{93AB9C00-8FA7-4827-A3BA-4B34831A9B0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F244565-7728-4BBE-B9E5-46F5F6011692}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HartleyMedical.Application", "HartleyMedical.Application\HartleyMedical.Application.csproj", "{8767A9CE-A99B-48D5-8749-F02D0942F57D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HartleyMedical.Twilio", "HartleyMedical.Twilio\HartleyMedical.Twilio.csproj", "{26EE2431-0D0B-434D-854D-BF6A5D4B87EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HartleyMedical.AzureBlobStorage", "HartleyMedical.Azure\HartleyMedical.AzureBlobStorage.csproj", "{00CCE03B-4007-4D22-802B-831AF3646364}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0724735E-DA49-4543-A04D-8FA10F8B250F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0724735E-DA49-4543-A04D-8FA10F8B250F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0724735E-DA49-4543-A04D-8FA10F8B250F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0724735E-DA49-4543-A04D-8FA10F8B250F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0724735E-DA49-4543-A04D-8FA10F8B250F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0724735E-DA49-4543-A04D-8FA10F8B250F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CB6CBA54-B695-4159-B8AA-49476A98BAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6CBA54-B695-4159-B8AA-49476A98BAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6CBA54-B695-4159-B8AA-49476A98BAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6CBA54-B695-4159-B8AA-49476A98BAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE54D5A9-2E26-4CD5-980A-900F179C8730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE54D5A9-2E26-4CD5-980A-900F179C8730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE54D5A9-2E26-4CD5-980A-900F179C8730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE54D5A9-2E26-4CD5-980A-900F179C8730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AB9C00-8FA7-4827-A3BA-4B34831A9B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AB9C00-8FA7-4827-A3BA-4B34831A9B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AB9C00-8FA7-4827-A3BA-4B34831A9B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AB9C00-8FA7-4827-A3BA-4B34831A9B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8767A9CE-A99B-48D5-8749-F02D0942F57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8767A9CE-A99B-48D5-8749-F02D0942F57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8767A9CE-A99B-48D5-8749-F02D0942F57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8767A9CE-A99B-48D5-8749-F02D0942F57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EE2431-0D0B-434D-854D-BF6A5D4B87EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EE2431-0D0B-434D-854D-BF6A5D4B87EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EE2431-0D0B-434D-854D-BF6A5D4B87EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EE2431-0D0B-434D-854D-BF6A5D4B87EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CCE03B-4007-4D22-802B-831AF3646364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CCE03B-4007-4D22-802B-831AF3646364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CCE03B-4007-4D22-802B-831AF3646364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CCE03B-4007-4D22-802B-831AF3646364}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0724735E-DA49-4543-A04D-8FA10F8B250F} = {3F244565-7728-4BBE-B9E5-46F5F6011692}
+		{CB6CBA54-B695-4159-B8AA-49476A98BAAC} = {3F244565-7728-4BBE-B9E5-46F5F6011692}
+		{CE54D5A9-2E26-4CD5-980A-900F179C8730} = {3F244565-7728-4BBE-B9E5-46F5F6011692}
+		{93AB9C00-8FA7-4827-A3BA-4B34831A9B0B} = {3F244565-7728-4BBE-B9E5-46F5F6011692}
+		{8767A9CE-A99B-48D5-8749-F02D0942F57D} = {3F244565-7728-4BBE-B9E5-46F5F6011692}
+		{26EE2431-0D0B-434D-854D-BF6A5D4B87EA} = {3F244565-7728-4BBE-B9E5-46F5F6011692}
+		{00CCE03B-4007-4D22-802B-831AF3646364} = {3F244565-7728-4BBE-B9E5-46F5F6011692}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D57CF77B-2DE5-49A1-B312-561560BA9D86}
+	EndGlobalSection
+EndGlobal

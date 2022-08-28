@@ -1,0 +1,227 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "AppDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "Test",
+   "OutputPath": "Entities",
+   "ProjectRootNamespace": "HartleyMedical.Domain",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Action]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Activity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ActivityDirection]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ActivityEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ActivityMessage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ActivityNote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ActivityPhoneCall]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ActivityStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ActivityTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ActivityType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AddressType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApiLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactMethod]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Diagnosis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmailTemplate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmailType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Entity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ExceptionLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[File]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Gender]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ICDCodeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Location]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MaritalStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Module]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Organization]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrganizationType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Patient]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientContact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientDiagnosis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientPayor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientPayorEligibility]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientPayorEligibilityDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientProvider]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Payor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PayorLevel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Provider]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProviderLocation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProviderType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RelationshipType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoleToAction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[State]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[User]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserToRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserType]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "hartleymedical.HartleyMedical",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

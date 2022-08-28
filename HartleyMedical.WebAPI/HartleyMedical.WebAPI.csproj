@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.3" />
+    <PackageReference Include="Polly" Version="7.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.0" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HartleyMedical.Application\HartleyMedical.Application.csproj" />
+    <ProjectReference Include="..\HartleyMedical.Azure\HartleyMedical.AzureBlobStorage.csproj" />
+    <ProjectReference Include="..\HartleyMedical.Infrastructure\HartleyMedical.Infrastructure.csproj" />
+    <ProjectReference Include="..\HartleyMedical.Twilio\HartleyMedical.Twilio.csproj" />
+  </ItemGroup>
+
+</Project>

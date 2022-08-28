@@ -1,0 +1,14 @@
+version: 0.0
+#comment
+os: windows
+files:
+  - source: \publish_output
+    destination: c:\inetpub\wwwroot  
+hooks:
+  BeforeInstall:
+    - location: Scripts\dotnet-core-env.ps1
+    - location: Scripts\stop-iis.cmd
+    - location: Scripts\delete-files.cmd
+  AfterInstall:
+    - location: Scripts\start-iis.cmd
+    
