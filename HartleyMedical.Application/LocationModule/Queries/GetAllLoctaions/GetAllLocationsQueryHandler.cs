@@ -22,8 +22,8 @@ namespace HartleyMedical.Application.LocationModule.Queries.GetAllLoctions
 
         public Task<List<GetAllLocationsResponse>> Handle(GetAllLocationsRequest request, CancellationToken cancellationToken)
         {
-            var loctions = _locationRepository.GetMany(c => !request.Active.HasValue || c.Active == request.Active, c => c.Facility, c => c.State);
-            return Task.FromResult(_mapper.Map<List<GetAllLocationsResponse>>(loctions));
+            var loction = _locationRepository.GetMany(c => !request.Active.HasValue || c.Active == request.Active, c => c.Facility, c => c.State);
+            return Task.FromResult(_mapper.Map<List<GetAllLocationsResponse>>(loction));
         }
     }
 }
